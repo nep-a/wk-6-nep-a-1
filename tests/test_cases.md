@@ -48,6 +48,7 @@
 #### TEST CASE 7: Authentication
 | TC ID | Test Description | Test Steps | Expected Result | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| TC_7-001 | [Test objective] | 1. [Step 1]<br>2. [Step 2]<br>3. [Step 3] | [Expected behavior] | Pass/Fail |
-| TC_7-002 | [Test objective] | 1. [Step 1]<br>2. [Step 2]<br>3. [Step 3] | [Expected behavior] | Pass/Fail |
-| TC_7-003 | [Test objective] | 1. [Step 1]<br>2. [Step 2]<br>3. [Step 3] | [Expected behavior] | Pass/Fail |
+| TC_7-001 | User Registration | 1.Click register button<br>2. Enter Details<br>3.Click Submit | To register a user and return a successful message. | Pass |
+| TC_7-002 | User Log in | 1. click login<br>2. Enter email and password<br>3. Submit correct email and password | To log in successfully and user to seea dashbord | Pass |
+| TC_7-003 | password Validation | 1. Enter all details<br>2. Submit the details<br> | User to confirm a password | Fail |
+| TC_7-003 | session management | 1. Enter all details<br>2. Submit the details<br> | user to be kept logged in |pass |
