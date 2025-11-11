@@ -25,7 +25,6 @@
 | TC_3-003 | [Test objective] | 1. [Step 1]<br>2. [Step 2]<br>3. [Step 3] | [Expected behavior] | Pass/Fail |
 
 #### TEST CASE 4: Content management Testing
-<<<<<<< HEAD
 
 | TC ID    | Feature            | Test Case Description                                | Precondition         | Steps                                                                          | Expected Result                             | Priority | Status |
 | -------- | ------------------ | ---------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------- | -------- | ------ |
