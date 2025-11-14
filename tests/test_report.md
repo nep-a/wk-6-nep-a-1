@@ -1,57 +1,86 @@
-# 🧾 CleanCity Phase 2 Test Report
+# 🧾 CleanCity Test Report
 
-**Date:** [11/11/2025]  
-**Phase 2:** Test Design & Early Execution   
-
----
-
-## Summary
-This report summarizes the Phase 2 testing deliverables for the CleanCity web application.  
-All test cases have been designed and reviewed, with initial manual and automated scripts ready. Execution is pending.
+**Date:** [13/11/2025]  
+**Phase 3:** Test Design & Early Execution   
 
 ---
 
-## Test Results Summary
-
-| Category | Total Cases | Passed | Failed | Pending |
-|-----------|--------------|---------|---------|----------|
-| Functional | 10 | 0 | 0 | 10 |
-| Non-Functional | 3 | 0 | 0 | 3 |
-| Accessibility | 3 | 0 | 0 | 3 |
-| Cross-Browser | 4 | 0 | 0 | 4 |
-| **Total** | **20** | **0** | **0** | **20** |
+## 1. Project Overview
+The Clean City Project is a web-based sustainability platform enabling citizens to report waste, view cleanup events, and volunteer for environmental causes. The system includes a user interface, forms, event listings, and an admin dashboard.
 
 ---
 
-## Key Observations
-- Date field validation missing (DEF-001)
-- Accessibility improvements required
-- Dashboard refresh logic needs update
+## 2. Objectives
+- Verify functional correctness of all modules.
+- Validate usability and responsiveness.
+- Identify defects and performance issues.
+- Ensure smooth navigation and submission flow.
 
 ---
 
-## Challenges
-- Lack of backend API limited test coverage
-- Need for more mock data in Awareness section
+## 3. Scope
+### In Scope:
+- Frontend UI (React-based)
+- Waste reporting form
+- Events & volunteer features
+- Login/Sign-up modules
+- Admin dashboard basic functions
+
+### Out of Scope:
+- Backend data validation
+- Payment or API integrations
+- Automated or performance testing
 
 ---
 
-## Next Steps
-- Execute manual tests in Phase 3
-- Implement missing validation and accessibility fixes
-- Run automated Jest scripts
-- Update defect log with results
+## 4. Test Approach
+- **Testing Type:** Manual Functional Testing  
+- **Environment:** Chrome v120 on Windows 10  
+- **Method:** Exploratory and scenario-based  
+- **Focus Areas:** Form validation, navigation, authentication, and layout consistency
 
 ---
 
-**QA Lead:** _MERCY CHEBET____________  
+## 5. Test Summary
+
+| Category | Total | Passed | Failed | Partial |
+|-----------|--------|--------|---------|----------|
+| Navigation | 3 | 3 | 0 | 0 |
+| Forms | 6 | 5 | 1 | 0 |
+| Authentication | 3 | 2 | 1 | 0 |
+| Events | 4 | 3 | 1 | 0 |
+| Dashboard | 4 | 3 | 0 | 1 |
+| **Total** | **20** | **16** | **2** | **2** |
+
+---
+
+## 6. Key Defects Summary
+- Event filtering not functional.
+- Minor alignment issues on small screens.
+- Missing profile edit feature.
+- Missing accessibility attributes.
+
+---
+
+## 7. Risks & Recommendations
+### Risks:
+- Missing validation may allow incomplete data submission.
+- Poor mobile optimization can affect usability.
+
+### Recommendations:
+- Implement backend validation.
+- Improve mobile CSS layout.
+- Add “Profile Edit” and event filtering.
+- Conduct accessibility testing (WCAG 2.1).
+
+---
+
+## 8. Conclusion
+Overall, the Clean City Project performs well functionally with strong user experience and stability. Most modules are fully operational. Minor UX and responsive issues can be addressed in future iterations.
+
+
+**Test Manager:** _MERCY CHEBET____________  
 **Approved By:** __HORACE WITABA, EMILY AWUOR_____________  
-**Date:** ___11/11/2025________________
+**Date:** ___13/11/2025________________
 
-## CleanCity Website - Test Summary Report
-
-#### Project: CleanCity Website Test Cycle: Sprint 1 & 2- Core Features (Nov 4 - Nov 18, 2025) Report Date: November 11, 2025 Prepared By: Mercy Chebet ,Environment: Staging Server (v1.0.2)
-
-### Executive Summary:
-This report summarizes the testing results for the "Sprint 1 & 2- Core Features" test cycle.
 
