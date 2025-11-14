@@ -13,7 +13,8 @@
 | BUG-001       | Missing validation for “Date” field           | Waste Management  | Major        | Open       | Steps: Leave Date blank → Submit form → No error shown. Expected: Validation error “Date required.” |
 | BUG-002       | Missing alt-text on Awareness infographics    | Awareness Section | Medium       | Open       | Steps: Use screen reader → Alt text missing on images.                                              |
 | BUG-003       | Community posts not sorted chronologically    | Community Feed    | Minor        | Open       | Steps: Create new post → Appears below older ones.                                                  |
-| BUG-004       | “Mark as Scheduled” button doesn’t refresh UI | Admin Panel       | Major        | Open       | Steps: Click Mark as Scheduled → Status changes, but UI doesn’t update.                             |
+| BUG-004       | “Mark as Scheduled” button doesn’t refresh UI | Admin Panel       | Major        | Open       | Steps: Click Mark as Scheduled → Status changes, but UI doesn’t update. 
+BUG -                          |
 
 ![alt text](image-3.png)
 ![alt text](image-4.png)
